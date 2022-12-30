@@ -8,3 +8,5 @@ require("driesverb.plugins.comment")
 require("driesverb.plugins.nvim-tree")
 require("driesverb.plugins.lualine")
 require("driesverb.plugins.telescope")
+require("driesverb.plugins.nvim-cmp")
+
