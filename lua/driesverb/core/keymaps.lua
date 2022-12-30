@@ -1,3 +1,10 @@
+-- [[
+-- General Keymaps
+-- ----------------
+-- 
+-- <C-o> go back from file
+-- <C-i> go forward from file
+-- ]] --
 -- set leader key to space
 vim.g.mapleader = " "
 
