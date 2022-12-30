@@ -5,4 +5,4 @@ require("driesverb.core.options")
 require("driesverb.core.keymaps")
 require("driesverb.core.colorscheme")
 require("driesverb.plugins.comment")
-
+require("driesverb.plugins.nvim-tree")
