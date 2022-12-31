@@ -211,6 +211,11 @@ _G.packer_plugins = {
     path = "/home/brnsm/.local/share/nvim/site/pack/packer/start/template-string.nvim",
     url = "https://github.com/axelvc/template-string.nvim"
   },
+  ["tokyonight.nvim"] = {
+    loaded = true,
+    path = "/home/brnsm/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
+    url = "https://github.com/folke/tokyonight.nvim"
+  },
   ["typescript.nvim"] = {
     loaded = true,
     path = "/home/brnsm/.local/share/nvim/site/pack/packer/start/typescript.nvim",
@@ -225,11 +230,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/brnsm/.local/share/nvim/site/pack/packer/start/vim-maximizer",
     url = "https://github.com/szw/vim-maximizer"
-  },
-  ["vim-nightfly-guicolors"] = {
-    loaded = true,
-    path = "/home/brnsm/.local/share/nvim/site/pack/packer/start/vim-nightfly-guicolors",
-    url = "https://github.com/bluz71/vim-nightfly-guicolors"
   },
   ["vim-surround"] = {
     loaded = true,
