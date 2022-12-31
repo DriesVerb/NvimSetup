@@ -109,6 +109,11 @@ _G.packer_plugins = {
     path = "/home/brnsm/.local/share/nvim/site/pack/packer/start/friendly-snippets",
     url = "https://github.com/rafamadriz/friendly-snippets"
   },
+  ["gitsigns.nvim"] = {
+    loaded = true,
+    path = "/home/brnsm/.local/share/nvim/site/pack/packer/start/gitsigns.nvim",
+    url = "https://github.com/lewis6991/gitsigns.nvim"
+  },
   ["lspkind.nvim"] = {
     loaded = true,
     path = "/home/brnsm/.local/share/nvim/site/pack/packer/start/lspkind.nvim",
@@ -200,6 +205,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/brnsm/.local/share/nvim/site/pack/packer/start/telescope.nvim",
     url = "https://github.com/nvim-telescope/telescope.nvim"
+  },
+  ["template-string.nvim"] = {
+    loaded = true,
+    path = "/home/brnsm/.local/share/nvim/site/pack/packer/start/template-string.nvim",
+    url = "https://github.com/axelvc/template-string.nvim"
   },
   ["typescript.nvim"] = {
     loaded = true,
