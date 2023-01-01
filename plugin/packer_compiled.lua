@@ -186,6 +186,11 @@ _G.packer_plugins = {
     path = "/home/brnsm/.local/share/nvim/site/pack/packer/start/nvim-web-devicons",
     url = "https://github.com/nvim-tree/nvim-web-devicons"
   },
+  onehalf = {
+    loaded = true,
+    path = "/home/brnsm/.local/share/nvim/site/pack/packer/start/onehalf",
+    url = "https://github.com/sonph/onehalf"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/home/brnsm/.local/share/nvim/site/pack/packer/start/packer.nvim",
