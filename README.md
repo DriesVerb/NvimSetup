@@ -8,11 +8,7 @@ Forked from [this repo](https://github.com/josean-dev/dev-environment-files/tree
 
 Mapleader set to space
 
-### Moving between windows
-
-Ctrl H J K L
-
-### Keymaps normal
+### Keymaps normal mode
 
 leader sf = safe file
 leader + = increment number
@@ -20,11 +16,24 @@ leader - = decrement number
 
 **Window management**
 
+Moving in between windows
+Ctrl H J K L
+
 leader sv = split window vertically
 leader sh = split window horizontally
 leader se = split window equally
 leader sx = close current split window
+leader sm = toggle magimize window
 
-### General Keymaps insert
+leader to = open new tab
+leader tx = close current tab
+leader tn = go to next tab
+leader tp = go to previous tab
+
+### Keymaps insert mode
 
 jk = esc
+
+### Keymaps visual mode
+
+J K = Move code up and down

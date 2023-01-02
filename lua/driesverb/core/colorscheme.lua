@@ -4,8 +4,8 @@ if not setup then
 end
 
 tokyonight.setup({
-	style = "moon",
-	transparent = true, -- Enable this to disable setting the background color
+	style = "storm",
+	-- transparent = true, -- Enable this to disable setting the background color
 })
 
 local status, _ = pcall(vim.cmd, "colorscheme tokyonight")

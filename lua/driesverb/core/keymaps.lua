@@ -1,10 +1,10 @@
 -- [[
 -- General Keymaps
 -- ----------------
--- 
+--
 -- <C-o> go back from file
 -- <C-i> go forward from file
--- 
+--
 -- Ctrl H J K L move between windows
 -- ]]
 
@@ -19,7 +19,12 @@ local keymap = vim.keymap -- for conciseness
 
 -- use jk to exit insert mode
 keymap.set("i", "jk", "<ESC>")
+keymap.set("n", "<leader>qf", ":q")
 keymap.set("n", "<leader>sf", ":w<CR>")
+
+-- move code up and down
+keymap.set("v", "J", ":m '>+1<CR>gv=gv")
+keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 
 -- clear search highlights
 keymap.set("n", "<leader>nh", ":nohl<CR>")
@@ -45,7 +50,6 @@ keymap.set("n", "<leader>tp", ":tabp<CR>") --  go to previous tab
 ----------------------
 -- Plugin Keybinds
 ----------------------
-
 
 -- Ctrl H J K L move between windows
 -- vim-maximizer
