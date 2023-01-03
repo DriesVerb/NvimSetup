@@ -1,8 +1,15 @@
 # NvimSetup
 
+**TODO:**
+
+- New Icon instead of tux on lualine, popos?
+- Better documentation of keymaps
+- Better clipboard function
+
 **Requirements:**
 
 - ripgrep
+- xclip
 - git
 
 Move config to ~/config/nvim and run :PackerSync to install all the dependencies.
