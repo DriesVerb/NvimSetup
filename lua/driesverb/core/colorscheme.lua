@@ -4,7 +4,7 @@ if not setup then
 end
 
 tokyonight.setup({
-	style = "storm",
+	style = "moon",
 	-- transparent = true, -- Enable this to disable setting the background color
 })
 

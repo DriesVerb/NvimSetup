@@ -2,9 +2,8 @@
 
 **TODO:**
 
-- New Icon instead of tux on lualine, popos?
+- Intergration of vim tree hotkeys
 - Better documentation of keymaps
-- Better clipboard function
 
 **Requirements:**
 
