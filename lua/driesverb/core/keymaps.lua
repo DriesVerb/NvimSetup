@@ -22,6 +22,16 @@ keymap.set("i", "jk", "<ESC>")
 keymap.set("n", "<leader>qf", ":q")
 keymap.set("n", "<leader>sf", ":w<CR>")
 
+-- copy to clipboard needs xclip and home path in bash
+keymap.set("v", "<leader>y", '"+y')
+
+-- move code up and down
+keymap.set("v", "J", ":m '>+1<CR>gv=gv")
+keymap.set("v", "K", ":m '<-2<CR>gv=gv")
+
+-- clear search highlights
+keymap.set("n", "<leader>nh", ":nohl<CR>")
+
 -- move code up and down
 keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 keymap.set("v", "K", ":m '<-2<CR>gv=gv")

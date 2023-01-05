@@ -49,4 +49,5 @@ jk = esc
 
 ### Keymaps visual mode
 
-J K = Move code up and down
+shift j/k = Move code up and down
+leader y = copy to clipboard
