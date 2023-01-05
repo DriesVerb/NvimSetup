@@ -68,7 +68,10 @@ keymap.set("n", "<leader>sm", ":MaximizerToggle<CR>") -- toggle split window max
 -- nvim-tree
 keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>") -- toggle file explorer
 keymap.set("n", "<leader>ec", ":NvimTreeCollapse<CR>") -- collapse full nvim-tree
-keymap.set("n", "<leader>ef", ":NvimTreeFocus<CR>") -- focus on current file in directory
+keymap.set("n", "<leader>eb", ":NvimTreeCollapseKeepBuffers<CR>") -- collapse full nvim-tree
+keymap.set("n", "<leader>eo", ":NvimTreeFocus<CR>") -- focus on current file in directory
+keymap.set("n", "<leader>ef", ":NvimTreeFindFile<CR>") -- focus on current file in directory
+keymap.set("n", "<leader>et", ":NvimTreeFindFileToggle<CR>") -- focus on current file in directory
 
 -- telescope
 keymap.set("n", "<leader>ff", "<cmd>Telescope find_files<cr>") -- find files within current working directory, respects .gitignore

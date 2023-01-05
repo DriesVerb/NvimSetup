@@ -27,6 +27,15 @@ leader sf = safe file
 leader + = increment number
 leader - = decrement number
 
+** vim tree **
+
+leader e = toggle vimtree
+leader ec = collapse all vimtree
+leader eb = collapse all vimtree except for buffered files
+leader eo = jump to vimtree
+leader ef = jump to file im vimtree
+leader et = jump to file in vimtree and toggle
+
 **Window management**
 
 Moving in between windows
