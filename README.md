@@ -44,6 +44,7 @@ Moving in between windows
 
 - Ctrl H J K L
 
+- leader sn = split window vertically and open vim tree
 - leader sv = split window vertically
 - leader sh = split window horizontally
 - leader se = split window equally
