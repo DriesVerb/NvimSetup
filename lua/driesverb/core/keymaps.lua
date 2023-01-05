@@ -19,8 +19,10 @@ local keymap = vim.keymap -- for conciseness
 
 -- use jk to exit insert mode
 keymap.set("i", "jk", "<ESC>")
-keymap.set("n", "<leader>qf", ":q")
+keymap.set("n", "<leader>qf", ":q<CR>")
+keymap.set("n", "<leader>qa", ":qa<CR>")
 keymap.set("n", "<leader>sf", ":w<CR>")
+keymap.set("n", "<leader>sa", ":wa<CR>")
 
 -- copy to clipboard needs xclip and home path in bash
 keymap.set("v", "<leader>y", '"+y')

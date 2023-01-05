@@ -2,7 +2,6 @@
 
 **TODO:**
 
-- Intergration of vim tree hotkeys
 - Better documentation of keymaps
 
 **Requirements:**
@@ -24,6 +23,9 @@ Mapleader set to space
 ### Keymaps normal mode
 
 leader sf = safe file
+leader sa = safe all files
+leader qf = quit file
+leader qa = quit all files
 leader + = increment number
 leader - = decrement number
 
