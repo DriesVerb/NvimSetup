@@ -3,9 +3,11 @@
 **TODO:**
 
 - Better documentation of keymaps
+- Set ingore for prettier for certain saves
 
 **Requirements:**
 
+- a nerd font
 - ripgrep
 - xclip
 - git

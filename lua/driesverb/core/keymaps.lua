@@ -54,6 +54,7 @@ keymap.set("n", "<leader>sn", "<C-w>v:NvimTreeFindFile<CR>") -- split window ver
 keymap.set("n", "<leader>sh", "<C-w>s") -- split window horizontally
 keymap.set("n", "<leader>se", "<C-w>=") -- make split windows equal width & height
 keymap.set("n", "<leader>sx", ":close<CR>") -- close current split window
+keymap.set("n", "<leader>sm", ":MaximizerToggle<CR>") -- toggle split window maximization
 
 keymap.set("n", "<leader>to", ":tabnew<CR>") -- open new tab
 keymap.set("n", "<leader>tx", ":tabclose<CR>") -- close current tab
@@ -66,7 +67,6 @@ keymap.set("n", "<leader>tp", ":tabp<CR>") --  go to previous tab
 
 -- Ctrl H J K L move between windows
 -- vim-maximizer
-keymap.set("n", "<leader>sm", ":MaximizerToggle<CR>") -- toggle split window maximization
 
 -- nvim-tree
 keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>") -- toggle file explorer
