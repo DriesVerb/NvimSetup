@@ -2,8 +2,8 @@
 
 **TODO:**
 
-- Better documentation of keymaps
 - Set ingore for prettier for certain saves
+- Better documentation of keymaps
 
 **Requirements:**
 
