@@ -2,6 +2,7 @@
 
 **TODO:**
 
+- New hotkey for open dir in vimtree
 - Set ingore for prettier for certain saves
 - Better documentation of keymaps
 
