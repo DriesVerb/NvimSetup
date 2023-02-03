@@ -6,6 +6,7 @@ end
 
 -- get lualine nightfly theme
 local lualine_nightfly = require("lualine.themes.nightfly")
+local lualine_onedark = require("lualine.themes.onedark")
 
 -- new colors for theme
 local new_colors = {
@@ -38,7 +39,7 @@ lualine_nightfly.command = {
 -- configure lualine with modified theme
 lualine.setup({
 	options = {
-		theme = lualine_nightfly,
+		theme = lualine_onedark,
 		symbols = symbols,
 	},
 	sections = {
