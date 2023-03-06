@@ -1,13 +1,3 @@
-local setup, tokyonight = pcall(require, "tokyonight")
-if not setup then
-	return
-end
---
-tokyonight.setup({
-	style = "storm",
-	-- transparent = true, -- Enable this to disable setting the background color
-})
-
 local status_ok, color_scheme = pcall(require, "onedark")
 if not status_ok then
 	return

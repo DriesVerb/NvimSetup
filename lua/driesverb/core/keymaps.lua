@@ -70,7 +70,7 @@ keymap.set("n", "<leader>tp", ":tabp<CR>") --  go to previous tab
 
 -- nvim-tree
 keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>") -- toggle file explorer
-keymap.set("n", "<leader>ee", "<C-]>") -- open specific folder as work folder
+keymap.set("n", "<leader>of", "<C-]>") -- open specific folder as work folder
 keymap.set("n", "<leader>ec", ":NvimTreeCollapse<CR>") -- collapse full nvim-tree
 keymap.set("n", "<leader>eb", ":NvimTreeCollapseKeepBuffers<CR>") -- collapse full nvim-tree
 keymap.set("n", "<leader>eo", ":NvimTreeFocus<CR>") -- focus on current file in directory
@@ -92,3 +92,7 @@ keymap.set("n", "<leader>gs", "<cmd>Telescope git_status<cr>") -- list current c
 
 -- undo tree
 keymap.set("n", "<leader>u", "<cmd>UndotreeToggle<cr>")
+
+-- LSP
+keymap.set("n", "<leader>ls", ":LspStop")
+keymap.set("n", "<leader>lr", ":LspRestart")
