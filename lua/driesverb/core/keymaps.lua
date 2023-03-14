@@ -34,6 +34,9 @@ keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 -- clear search highlights
 keymap.set("n", "<leader>nh", ":nohl<CR>")
 
+-- toggle line numbers
+keymap.set("n", "<leader>ln", ":set rnu!<cr>")
+
 -- move code up and down
 keymap.set("v", "J", ":m '>+1<CR>gv=gv")
 keymap.set("v", "K", ":m '<-2<CR>gv=gv")
@@ -70,7 +73,6 @@ keymap.set("n", "<leader>tp", ":tabp<CR>") --  go to previous tab
 
 -- nvim-tree
 keymap.set("n", "<leader>e", ":NvimTreeToggle<CR>") -- toggle file explorer
-keymap.set("n", "<leader>of", "<C-]>") -- open specific folder as work folder
 keymap.set("n", "<leader>ec", ":NvimTreeCollapse<CR>") -- collapse full nvim-tree
 keymap.set("n", "<leader>eb", ":NvimTreeCollapseKeepBuffers<CR>") -- collapse full nvim-tree
 keymap.set("n", "<leader>eo", ":NvimTreeFocus<CR>") -- focus on current file in directory
@@ -91,8 +93,8 @@ keymap.set("n", "<leader>gb", "<cmd>Telescope git_branches<cr>") -- list git bra
 keymap.set("n", "<leader>gs", "<cmd>Telescope git_status<cr>") -- list current changes per file with diff preview ["gs" for git status]
 
 -- undo tree
-keymap.set("n", "<leader>u", "<cmd>UndotreeToggle<cr>")
+keymap.set("n", "<leader>ut", "<cmd>UndotreeToggle<cr>")
 
 -- LSP
-keymap.set("n", "<leader>ls", ":LspStop")
-keymap.set("n", "<leader>lr", ":LspRestart")
+keymap.set("n", "<leader>ls", ":LspStop<cr>")
+keymap.set("n", "<leader>lr", ":LspRestart<cr>")
