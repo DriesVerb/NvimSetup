@@ -1,5 +1,17 @@
 require("nvim-treesitter.configs").setup({
-	ensure_installed = { "tsx", "lua", "rust", "json", "graphql", "regex", "vim", "css", "javascript", "html", "sql" },
+	ensure_installed = {
+		"tsx",
+		"lua",
+		"rust",
+		"json",
+		"graphql",
+		"regex",
+		"vim",
+		"css",
+		"javascript",
+		"html",
+		"prisma",
+	},
 
 	sync_install = false,
 	auto_install = true,
