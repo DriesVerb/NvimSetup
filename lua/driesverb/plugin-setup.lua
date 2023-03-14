@@ -105,6 +105,7 @@ return packer.startup(function(use)
 	-- undo tree
 	use("mbbill/undotree")
 
+	-- splash screen manager
 	use({ "goolord/alpha-nvim" })
 
 	if packer_bootstrap then
