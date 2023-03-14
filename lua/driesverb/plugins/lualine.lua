@@ -42,7 +42,4 @@ lualine.setup({
 		theme = lualine_onedark,
 		symbols = symbols,
 	},
-	sections = {
-		section_x = { symbols },
-	},
 })
