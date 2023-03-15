@@ -53,7 +53,7 @@ keymap.set("n", "<leader>-", "<C-x>") -- decrement
 
 -- window management
 keymap.set("n", "<leader>sv", "<C-w>v") -- split window vertically
-keymap.set("n", "<leader>sn", "<C-w>v:NvimTreeFindFile<CR>") -- split window vertically
+keymap.set("n", "<leader>sn", "<C-w>v:NvimTreeFindFile<CR>:NvimTreeFocus<cr>") -- split window vertically
 keymap.set("n", "<leader>sh", "<C-w>s") -- split window horizontally
 keymap.set("n", "<leader>se", "<C-w>=") -- make split windows equal width & height
 keymap.set("n", "<leader>sx", ":close<CR>") -- close current split window
@@ -78,6 +78,11 @@ keymap.set("n", "<leader>eb", ":NvimTreeCollapseKeepBuffers<CR>") -- collapse fu
 keymap.set("n", "<leader>eo", ":NvimTreeFocus<CR>") -- focus on current file in directory
 keymap.set("n", "<leader>ef", ":NvimTreeFindFile<CR>:NvimTreeFocus<cr>") -- focus on current file in directory
 keymap.set("n", "<leader>et", ":NvimTreeFindFileToggle<CR>") -- focus on current file in directory and toggle
+keymap.set("n", "<leader>mt", require("nvim-tree.api").marks.toggle)
+
+keymap.set("n", "<leader>mn", require("nvim-tree.api").marks.navigate.next)
+keymap.set("n", "<leader>mp", require("nvim-tree.api").marks.navigate.prev)
+keymap.set("n", "<leader>ms", require("nvim-tree.api").marks.navigate.select)
 
 -- telescope
 keymap.set("n", "<leader>ff", "<cmd>Telescope find_files<cr>") -- find files within current working directory, respects .gitignore
