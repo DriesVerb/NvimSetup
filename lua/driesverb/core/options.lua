@@ -1,3 +1,4 @@
+local g = vim.g
 local opt = vim.opt
 
 --line numbers
@@ -37,7 +38,5 @@ opt.swapfile = false
 opt.backup = false
 opt.undodir = os.getenv("HOME") .. "/.vim/undodir"
 opt.undofile = true
-
-local g = vim.g
 
 g["node_host_prog"] = vim.call("system", 'volta which neovim-node-host | tr -d "\n"')
