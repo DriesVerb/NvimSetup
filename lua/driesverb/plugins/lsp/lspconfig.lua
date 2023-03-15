@@ -70,6 +70,7 @@ typescript.setup({
 	},
 })
 
+-- Diagnostics Setup
 vim.fn.sign_define("DiagnosticSignError", { text = "", texthl = "LspDiagnosticsDefaultError" })
 
 vim.fn.sign_define("DiagnosticSignWarn", { text = "", texthl = "LspDiagnosticsDefaultWarning" })
