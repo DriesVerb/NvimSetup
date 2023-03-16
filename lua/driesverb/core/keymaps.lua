@@ -78,11 +78,12 @@ keymap.set("n", "<leader>eb", ":NvimTreeCollapseKeepBuffers<CR>") -- collapse fu
 keymap.set("n", "<leader>eo", ":NvimTreeFocus<CR>") -- focus on current file in directory
 keymap.set("n", "<leader>ef", ":NvimTreeFindFile<CR>:NvimTreeFocus<cr>") -- focus on current file in directory
 keymap.set("n", "<leader>et", ":NvimTreeFindFileToggle<CR>") -- focus on current file in directory and toggle
-keymap.set("n", "<leader>mt", require("nvim-tree.api").marks.toggle)
 
-keymap.set("n", "<leader>mn", require("nvim-tree.api").marks.navigate.next)
-keymap.set("n", "<leader>mp", require("nvim-tree.api").marks.navigate.prev)
-keymap.set("n", "<leader>ms", require("nvim-tree.api").marks.navigate.select)
+keymap.set("n", "<leader>er", require("nvim-tree.api").tree.change_root_to_node) -- make folder root of vim
+keymap.set("n", "<leader>mt", require("nvim-tree.api").marks.toggle) -- bookmark file
+keymap.set("n", "<leader>mn", require("nvim-tree.api").marks.navigate.next) -- next bookmark
+keymap.set("n", "<leader>mp", require("nvim-tree.api").marks.navigate.prev) -- prev bookmark
+keymap.set("n", "<leader>ms", require("nvim-tree.api").marks.navigate.select) -- show all bookmarks
 
 -- telescope
 keymap.set("n", "<leader>ff", "<cmd>Telescope find_files<cr>") -- find files within current working directory, respects .gitignore
