@@ -83,7 +83,7 @@ keymap.set("n", "<leader>er", require("nvim-tree.api").tree.change_root_to_node)
 keymap.set("n", "<leader>mt", require("nvim-tree.api").marks.toggle) -- bookmark file
 keymap.set("n", "<leader>mn", require("nvim-tree.api").marks.navigate.next) -- next bookmark
 keymap.set("n", "<leader>mp", require("nvim-tree.api").marks.navigate.prev) -- prev bookmark
-keymap.set("n", "<leader>ms", require("nvim-tree.api").marks.navigate.select) -- show all bookmarks
+keymap.set("n", "<leader>mb", require("nvim-tree.api").marks.navigate.select) -- show all bookmarks
 
 -- telescope
 keymap.set("n", "<leader>ff", "<cmd>Telescope find_files<cr>") -- find files within current working directory, respects .gitignore
