@@ -62,7 +62,7 @@ local symbolset = {
 	"󰹅",
 }
 
-local random_elem = symbolset[math.random(#symbolset)]
+random_elem = symbolset[math.random(#symbolset)]
 
 -- stylua: ignore
 local symbols = {
