@@ -61,23 +61,27 @@ lspconfig["cssls"].setup({
 lspconfig["tsserver"].setup({
 	capabilities = capabilities,
 	on_attach = on_attach,
+	filetypes = { "typescript", "typescriptreact", "typescript.tsx", "javascriptreact", "javascript" },
 })
 -- configure typescript server with plugin
 typescript.setup({
 	server = {
 		capabilities = capabilities,
 		on_attach = on_attach,
+		filetypes = { "typescript", "typescriptreact", "typescript.tsx", "javascriptreact", "javascript" },
 	},
 })
 
+diagnostic_symbols = ",,,"
+
 -- Diagnostics Setup
-vim.fn.sign_define("DiagnosticSignError", { text = "", texthl = "LspDiagnosticsDefaultError" })
+vim.fn.sign_define("DiagnosticSignError", { text = "󱚢", texthl = "LspDiagnosticsDefaultError" })
 
-vim.fn.sign_define("DiagnosticSignWarn", { text = "", texthl = "LspDiagnosticsDefaultWarning" })
+vim.fn.sign_define("DiagnosticSignWarn", { text = "󱚠", texthl = "LspDiagnosticsDefaultWarning" })
 
-vim.fn.sign_define("DiagnosticSignInfo", { text = "", texthl = "LspDiagnosticsDefaultInformation" })
+vim.fn.sign_define("diagnosticsigninfo", { text = "󱙺", texthl = "lspdiagnosticsdefaultinformation" })
 
-vim.fn.sign_define("DiagnosticSignHint", { text = "", texthl = "LspDiagnosticsDefaultHint" })
+vim.fn.sign_define("DiagnosticSignHint", { text = "󱚦", texthl = "LspDiagnosticsDefaultHint" })
 
 vim.diagnostic.config({
 	virtual_text = false, -- disable virtual text
