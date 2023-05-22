@@ -62,6 +62,7 @@ local symbolset = {
 	"󰹅",
 }
 
+math.randomseed(os.time())
 local random_elem = symbolset[math.random(1, #symbolset)]
 
 -- stylua: ignore
